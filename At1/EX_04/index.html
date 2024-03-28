@@ -25,7 +25,7 @@
     
     <h1>Cálculo até 100 a partir de um número: </h1>
     <br>
-    <input type="number" name="" id="n1" placeholder="Insira o número número">
+    <input type="number" name="" id="n1" placeholder="Insira o número">
     <br>
 
     <br>
@@ -37,6 +37,43 @@
     <div class="btns">
         <button class="btn btn-outline-success" onclick="calc()">Calcular Números até chegar a 100</button>
     </div>
+
+    <h1>Código original em C: </h1>
+    <br>
+    <br>
+    <br>
+    <br>
+    <pre>
+        
+        #include <stdio.h>
+            #include <stdlib.h>
+            #include <locale.h>
+            
+            void conta (int x);
+            
+            int main(){
+                setlocale(LC_ALL,"Portuguese");
+                int num;
+                
+                printf("Informe um n�mero pra ir dele at� 100:");
+                scanf("%d", &num);
+                conta(num);
+                
+                system("pause");
+                return 0;
+                
+            }
+            
+            void conta (int x){
+                    
+                if( x <= 100) {
+                    printf("%d \n", x);
+                    conta(x + 1);
+                    
+                }
+            }
+    
+    </pre>
     
 </body>
 </html>
