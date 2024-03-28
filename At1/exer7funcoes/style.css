@@ -1,0 +1,104 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+    /*background-image: url(https://krgames.com.br/medias/slide/big/13/img-2839-min.jpg);*/
+    background-color: grey;
+    color: white;
+    margin-top: 15%;
+    align-items: center;
+    justify-content: center;
+}
+
+h1
+{
+    margin-top: 200px;
+    font-family: "Rubik", sans-serif;
+    margin-left: 10vw;
+}
+
+header
+{
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    height: 155px;
+    background-color: rgb(59, 58, 58);
+    color: white;
+    border: 1px solid rgb(67, 92, 67);
+}
+
+.links
+{
+    display: flex;
+    gap: 50px;
+    margin-top: 50px;
+    flex-direction: row;
+    font-family: "Roboto", sans-serif;
+}
+
+
+.total
+{
+    margin-left: 20vw;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: large;
+    font-style: normal;
+}
+
+button
+{
+    appearance: none;
+    background-color: green;
+    border: 1px solid rgba(27, 31, 35, .15);
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 22px;
+    padding: 6px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+    font-size: x-large;
+}
+
+.btns
+{
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    flex-direction: row;
+    gap: 10vw;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+input
+{
+    width: 50%;
+    height: 20px;
+    text-align: center;
+}
+
